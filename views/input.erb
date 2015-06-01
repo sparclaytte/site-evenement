@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" >
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <title>Evenements input</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <body style="background-color :lightyellow">
+
+    <h2>Evenements en Lamastre et Le Cheylard et environs</h2>
+    <p>Remplisez le formulaire soigneusement et decrivez bien le spectacle en commantaire et nous allons afficher votre spectacle sur le site. Merci! </p> 
+    <h1></h1>
+
+  </div>
+  <!-- <div class="row">
+    <div class="col-sm-12"> -->
+     
+      <!-- ./ commande ruby /.  -->
+
+<div class="container">
+  
+  <p></p>
+
+  <form action="/formulaire" method="post">
+     <input type="text" name="[formulaire]nom" placeholder="Nom"  />
+
+  <input type="text" name="[formulaire]prenom" placeholder="Prenom"  />
+     <div class="form-group">
+      <label for="usr">organisation:</label>
+      <input type="text" class="form-control" name="[formulaire]organisation">
+    </div>
+     <div class="form-group">
+      <label for="usr">mail:</label>
+      <input type="text" class="form-control" name="[formulaire]email">
+    </div>
+    <div class="form-group">
+      <label for="comment">Comment:</label>
+      <textarea class="form-control" rows="5" name="[formulaire]commentaire"></textarea>
+    </div>
+    <input type="submit" class="btn" value="Valider" />
+    <input type="submit" class="btn" value="annuler" />
+    <a href="/" button type="button" class="btn btn-default">Retourner a la page d' accueil</button> 
+  </form>
+   
+ 
+
+</body>
+</html>
